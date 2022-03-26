@@ -1,5 +1,6 @@
 # Wander_bot
 ROS Gazebo仿真 控制Turtlebots实现扫地机器人算法
+
 1.Problem background
 The aim of this assignment is to give you a way in to writing software for controlling a (simulated) robot using the Robot Operating System (ROS).
 In this assignment you will create a ROS node to drive the robot around with a simple wanderer algorithm, very like a ‘Roomba’ robot vacuum cleaner. The robot should move forward until it reaches an obstacle, then rotate in the same position until the way ahead is clear, then move forward again and repeat.
