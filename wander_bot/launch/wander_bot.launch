@@ -1,0 +1,11 @@
+<launch>
+  <param name="/use_sim_time" value="true"/>
+
+  <!--Run Gazebo with turtlebot-->
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"/> 
+
+  <!-- Run node -->
+  <node name="wander_bot" pkg="wander_bot" type="wander_bot" output="screen"/>
+  
+
+</launch>
